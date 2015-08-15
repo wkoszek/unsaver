@@ -1,6 +1,7 @@
 Screen Saver Killer
 -------------------
-(c) 2014 Wojciech A. Koszek <wkoszek@FreeBSD.czest.pl>
+
+[![Build Status](https://travis-ci.org/wkoszek/unsaver.svg?branch=master)](https://travis-ci.org/wkoszek/unsaver)
 
 This is a simple program for a 8hr hackathon organized in 2014Q4 at Xilinx Inc.
 For 2nd hackathon I decided to finally give literate programming a try and
@@ -23,4 +24,4 @@ them successfuly, the "unsaver" can be built by:
 
 	make
 
-
+Copyright 2014-2015 Wojciech A. Koszek <wojciech@koszek.com>
