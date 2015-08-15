@@ -1,5 +1,5 @@
 # (c) 2014 Wojciech A. Koszek <wkoszek@freebsd.czest.pl> 
-all: toolbuild unsaver unsaver.pdf
+all: toolbuild unsaver
 
 CWEAVE=tools/cweave
 CTANGLE=tools/ctangle
