@@ -120,7 +120,7 @@ essentially kill our remote X11 session!
 @<Make checks@>=
 
 	if (sleep_amt <= 0) {
-		printf("sleep_amt=%d, must be >= 1. Fixing to 1\n");
+		printf("sleep_amt=%d, must be >= 1. Fixing to 1\n", sleep_amt);
 		sleep_amt = 1;
 	}
 
