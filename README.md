@@ -24,8 +24,8 @@ Binaries aren't provided, however `unsaver.pdf` is a rendered copy from a
 `unsaver.w` file.  To compile this program you must have a ctangle/cweave
 programs from a CWEB package:
 
-	http://www.literateprogramming.com/cweb_download.html
-	http://www-cs-faculty.stanford.edu/~uno/cweb.html
+- http://www.literateprogramming.com/cweb_download.html
+- http://www-cs-faculty.stanford.edu/~uno/cweb.html
 
 To build it automatically, run:
 
