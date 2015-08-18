@@ -20,7 +20,7 @@ clean.j:
 clean: clean.j
 	rm -rf unsaver
 
-toolbuild: tools/README.md
+toolbuild:
 	rm -rf tools $(TOOLVER).tar.gz
 	wget https://github.com/wkoszek/cweb/archive/$(TOOLVER).tar.gz
 	tar -xzf $(TOOLVER).tar.gz
