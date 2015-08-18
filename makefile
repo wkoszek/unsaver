@@ -1,6 +1,7 @@
 # (c) 2014 Wojciech A. Koszek <wkoszek@freebsd.czest.pl> 
-all: toolbuild unsaver
+all: unsaver
 
+TOOLVER=20150814
 CWEAVE=tools/cweave
 CTANGLE=tools/ctangle
 
@@ -19,8 +20,9 @@ clean.j:
 clean: clean.j
 	rm -rf unsaver unsaver.pdf
 
-toolbuild:
-	wget https://github.com/wkoszek/cweb/archive/20150814.tar.gz
-	tar -xzf 20150814.tar.gz
-	mv cweb-20150814 tools
+toolbuild: tools/README.md
+	rm -rf tools $(TOOLVER).tar.gz
+	wget https://github.com/wkoszek/cweb/archive/$(TOOLVER).tar.gz
+	tar -xzf $(TOOLVER).tar.gz
+	mv cweb-$(TOOLVER) tools
 	(cd tools && make)

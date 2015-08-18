@@ -7,4 +7,5 @@ addons:
      packages:
      - libx11-dev
 script:
+- make toolbuild
 - make
