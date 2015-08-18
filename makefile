@@ -15,10 +15,10 @@ unsaver.pdf: unsaver
 
 clean.j:
 	rm -rf unsaver.dvi unsaver.idx unsaver.log \
-	unsaver.scn unsaver.tex unsaver.toc unsaver.c
+	unsaver.scn unsaver.tex unsaver.toc
 
 clean: clean.j
-	rm -rf unsaver unsaver.pdf
+	rm -rf unsaver
 
 toolbuild: tools/README.md
 	rm -rf tools $(TOOLVER).tar.gz
