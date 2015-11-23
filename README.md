@@ -55,8 +55,6 @@ Which will start moving cursor back and forth of 5 pixels. You can also pass
 Will move the cursor every 4 seconds. Options `-c` and `-s` can be used
 together.
 
-Copyright 2014-2015 Wojciech A. Koszek <wojciech@koszek.com>
-
 # Author
 
 - Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
