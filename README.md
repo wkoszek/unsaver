@@ -1,22 +1,13 @@
-Screen Saver Killer
--------------------
+# Screen Saver Killer
 
 [![Build Status](https://travis-ci.org/wkoszek/unsaver.svg?branch=master)](https://travis-ci.org/wkoszek/unsaver)
 
-This is a simple program for a 8hr hackathon organized in 2014Q4 at Xilinx Inc.
-
-It will work on modestly decent GNU Linux distribution with X11 development
-libraries.
-
-This was the 2nd hackathon which I participated in, and I decided to finally
-give a Literate Programming a try and create something small, yet useful.
 The idea behind the program was to keep the remote VNC session active and
-prevent its screensavers to get enabled (long story).
-
-`unsaver` was probably one of the most successful pieces of code, if ranked
-by popularity and positive feedback, compared to competitors. The policy
-wrt.  screensavers impacted a lot of people, and a lot of people found
-`unsaver` useful.
+prevent its screensavers to get enabled (long story). Screensavers enabled
+on the VNC servers were basically killing us in the company, and IT didn't
+want to disable them, even though our workstation also had protected
+screensavers, ie: grabbing a coffee meant typing passwords 2 times to get to
+your remote Xterm window.
 
 # Requirements
 
@@ -54,6 +45,20 @@ Which will start moving cursor back and forth of 5 pixels. You can also pass
 
 Will move the cursor every 4 seconds. Options `-c` and `-s` can be used
 together.
+
+# Background
+
+This is a simple program for a 8hr hackathon organized in 2014Q4 at Xilinx Inc.
+It will work on modestly decent GNU Linux distribution with X11 development
+libraries.
+
+This was the 2nd hackathon which I participated in, and I decided to finally
+give a Literate Programming a try and create something small, yet useful.
+
+`unsaver` was probably one of the most successful pieces of code, if ranked
+by popularity and positive feedback, compared to competitors. The policy
+wrt.  screensavers impacted a lot of people, and a lot of people found
+`unsaver` useful.
 
 # Author
 
